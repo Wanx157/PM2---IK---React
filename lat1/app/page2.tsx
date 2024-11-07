@@ -41,7 +41,7 @@ export default function Page2({ setCurrentPage2 }: Page2Props) {
           <div className="absolute z-10 top-12 right-0 bg-white border border-gray-300 rounded-lg shadow-lg p-4 transition-all duration-200">
             <div className="mt-2 flex flex-col space-y-2">
               <button
-                className="bg-white-500 text-black py-2 px-4 rounded hover:bg-purple-600 transition duration-200"
+                className="bg-sky-500 text-black py-2 px-4 rounded hover:bg-purple-600 transition duration-200"
                 onClick={() => goToPage(1)} // Kembali ke Halaman 1
               >
                 White

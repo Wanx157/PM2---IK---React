@@ -32,6 +32,7 @@ export default function Heroes() {
           </p>
         </div>
       </div>
+      <hr className="my-5 gradient-hr" />
     </section>
   );
 }

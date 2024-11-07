@@ -3,13 +3,13 @@ import '../stylish.css'; // Pastikan path file CSS sesuai
 import { warnapersonMerahKuning } from '../color'; // Import file warna
 
 const MyInfos = {
-  Birthday: "22 Oktober 2003",
-  Gender: "Male",
-  TinggiBadan: "165 cm",
-  BeratBadan: "48 kg",
+  Birthday: "31 Mei 2003",
+  Gender: "Laki-Laki",
+  TinggiBadan: "171 cm",
+  BeratBadan: "50 kg",
   Status: "Mahasiswa",
-  Whatsapp: "+62 818-1826-2469",
-  Email: "balyakkun37@gmail.com",
+  Whatsapp: "+62 838-0682-6787",
+  Email: "youngiwan157@gmail.com",
 };
 
 // Tipe untuk props RowInfo

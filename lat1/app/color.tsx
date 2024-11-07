@@ -197,7 +197,7 @@ export const warnapersonHijauToscaBiruMuda = {
 
 // warnahobiHijauToscaBiruMuda.js
 export const warnahobiHijauToscaBiruMuda = {
-  gradient: 'linear-gradient(to right, #00a86b, #2a9474, #87cefa)', // Gradien hijau tosca ke biru muda
+  gradient: 'linear-gradient(to right, #ffffff, #2a9474, #87cefa)', // Gradien hijau tosca ke biru muda
   text: '#ffffff', // Warna teks putih
   textShadow: '0 0 3px #00a86b, 0 0 7px #2a9474, 0 0 9px #87cefa', // Efek shadow hijau tosca-biru muda
   containerBg: '#000', // Warna latar belakang hitam
@@ -208,9 +208,9 @@ export const warnahobiHijauToscaBiruMuda = {
 
 // warnaformHijauToscaBiruMuda.tsx
 export const warnaformHijauToscaBiruMuda = {
-  gradient: 'linear-gradient(to right, #00a86b, #2a9474, #87cefa)', // Gradien hijau tosca ke biru muda
+  gradient: 'linear-gradient(to right, #ffffff, #2a9474, #87cefa)', // Gradien hijau tosca ke biru muda
   background: '#000', // Latar belakang hitam
-  border: '#00a86b', // Warna border hijau tosca
+  border: '#ffffff', // Warna border hijau tosca
   boxShadow: '0 8px 20px rgba(0, 0, 0, 0.8)', // Bayangan untuk efek kotak
   textColor: '#ffffff', // Warna teks putih
   starActive: '#87cefa', // Warna bintang aktif biru muda

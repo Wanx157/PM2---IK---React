@@ -42,8 +42,8 @@ export default function MyApp() {
         <>
           <Heroes />
           <div className="okgas">
-            <SkillsSection />
-            <PersonInfo />
+          <SkillsSection />
+          <PersonInfo />
           </div>
           <Hobbies />
           <RiwayatPendidikan />

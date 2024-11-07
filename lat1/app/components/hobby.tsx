@@ -37,7 +37,7 @@ const Hobbies = () => {
           fontFamily: warnahobi.fontFamily || 'Arial, sans-serif',
         }}
       >
-        My Hobbies
+        Hobbi Saya
       </h3>
 
       <div className="hobbies-container grid grid-cols-2 gap-8 mt-8 mx-auto max-w-6xl px-6">

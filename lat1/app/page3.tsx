@@ -47,7 +47,7 @@ export default function Page2({ setCurrentPage2 }: Page3Props) {
                 Yellow
               </button>
               <button
-                className="bg-white-500 text-black py-2 px-4 rounded hover:bg-purple-600 transition duration-200"
+                className="bg-sky-500 text-black py-2 px-4 rounded hover:bg-purple-600 transition duration-200"
                 onClick={() => goToPage(1)} // Kembali ke Halaman 1
               >
                 White
