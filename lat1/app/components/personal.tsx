@@ -4,7 +4,7 @@ import { warnaperson } from '../color'; // Import file warna
 
 const MyInfos = {
   Birthday: "31 Mei 2003",
-  Gender: "Male",
+  Gender: "Laki-Laki",
   TinggiBadan: "171 cm",
   BeratBadan: "50 kg",
   Status: "Mahasiswa",
@@ -43,7 +43,7 @@ const PersonInfo: React.FC = () => {
           color: warnaperson.labelText,
           textShadow: warnaperson.textShadow,
         }}>
-        Personal Info
+        Informasi Pribadi
       </h1>
       <div className="rounded-lg p-4 mb-4" style={{
           backgroundColor: warnaperson.containerBg,

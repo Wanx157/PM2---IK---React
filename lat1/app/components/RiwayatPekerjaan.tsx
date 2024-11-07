@@ -21,9 +21,10 @@ export default function RiwayatPekerjaan() {
       >
         Riwayat Pekerjaan
       </h1>
-      <RowJob year="2012 - 2014" instansi="Freelance" as="Konsultasi Web Dev" />
-      <RowJob year="2014 - 2015" instansi="CV Sasana Karya" as="Drafter" />
-      <RowJob year="2020 - 2024" instansi="PT Agmatic Farm" as="Owner" />
+      <RowJob year="2012 - 2014" instansi="Manajer Pemasaran" as="PT. Maju Bersama"  />
+      <RowJob year="2014 - 2017" instansi="Analis Keuangan" as="Bank Sejahtera"  />
+      <RowJob year="2017 - 2020" instansi="Staf Administrasi" as="Yayasan Pendidikan Cerdas"  />
+      <RowJob year="2020 - Sekarang" instansi="Customer Service" as="PT. Layanan Prima"  />
     </div>
   );
 }

@@ -63,23 +63,23 @@ export default function MyApp() {
           className="bg-gray-800 text-white font-bold py-2 px-4 rounded hover:bg-gray-700"
           onClick={togglePopup} // Toggle pop-up saat tombol diklik
         >
-          Pilih Thema
+          Pilihan Tema
         </button>
 
         {isOpen && (
           <div className="absolute z-10 top-12 right-0 bg-white border border-gray-300 rounded-lg shadow-lg p-4 transition-all duration-200">
             <div className="mt-2 flex flex-col space-y-2">
               <button
-                className="bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600 transition duration-200"
+                className="bg-yellow-500 text-white py-2 px-4 rounded hover:bg-red-600 transition duration-200"
                 onClick={() => goToPage(2)} // Navigasi ke Halaman 2
               >
-                (Yellow)
+                Yellow
               </button>
               <button
-                className="bg-sky-400 text-white py-2 px-4 rounded hover:bg-sky-500 transition duration-200"
+                className="bg-green-400 text-white py-2 px-4 rounded hover:bg-sky-500 transition duration-200"
                 onClick={() => goToPage(3)} // Navigasi ke Halaman 3
               >
-                (Green)
+                Green
               </button>
             </div>
           </div>

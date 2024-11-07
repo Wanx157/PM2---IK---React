@@ -43,7 +43,7 @@ const PersonInfoRed: React.FC = () => {
           color: warnapersonMerahKuning.labelText,
           textShadow: warnapersonMerahKuning.textShadow,
         }}>
-        Personal Info
+        Informasi Pribadi
       </h1>
       <div className="rounded-lg p-4 mb-4" style={{
           backgroundColor: warnapersonMerahKuning.containerBg,

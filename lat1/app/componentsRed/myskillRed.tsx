@@ -6,11 +6,11 @@ import { warnaskillMerahKuning} from '../color';
 
 const SkillsSectionRed = ({ }) => {
   const skills = [
-    { name: "React", rating: 65 },
-    { name: "HTML", rating: 95 },
-    { name: "CSS", rating: 80 },
-    { name: "Design", rating: 50 },
-    { name: "SQL", rating: 65 },
+    { name: "React", rating: 55 },
+    { name: "HTML", rating: 65 },
+    { name: "CSS", rating: 50 },
+    { name: "SQL", rating: 70 },
+    { name: "PAWNO", rating: 80 },
   ];
 
   return (
@@ -23,7 +23,7 @@ const SkillsSectionRed = ({ }) => {
             fontFamily: warnaskillMerahKuning.fontFamily
           }}
       >
-        MySkills
+        Keahlian Saya
       </h3>
       <section
         style={{

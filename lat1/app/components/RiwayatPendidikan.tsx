@@ -18,10 +18,10 @@ export default function RiwayatPendidikan() {
         }}>
         Riwayat Pendidikan
       </h1>
-      <RowRiwayat level="TK" namasekolah="TK Amalia B" year="2005 - 2009" />
-      <RowRiwayat level="SD" namasekolah="SD Asy-Syifa" year="2009 - 2015" />
-      <RowRiwayat level="SMP" namasekolah="Genrus Nusantara Boarding School" year="2015 - 2017" />
-      <RowRiwayat level="SMK" namasekolah="SMK Negeri 6 Bandung" year="2017 - 2022" />
+      <RowRiwayat level="SD" namasekolah="SDN CIGUMELOR" year="2010 - 2016"  />
+      <RowRiwayat level="SMP" namasekolah="SMPN 3 PASEH" year="2016 - 2019"  />
+      <RowRiwayat level="SMA" namasekolah="SMAN 2 MAJALAYA" year="2019 - 2022"  />
+      <RowRiwayat level="Universitas" namasekolah="UNIVERSITAS MASOEM" year="2022 - Sekarang"  />
     </div>
   );
 }

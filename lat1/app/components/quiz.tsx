@@ -45,7 +45,7 @@ export default function ContactForm() {
           paddingTop: 20,
         }}
       >
-        Contact Form
+        Formulir Kontak 
       </h1>
       <div
         className="contact-form"
@@ -66,13 +66,13 @@ export default function ContactForm() {
         {submittedData ? (
           <>
             <div style={{ display: 'flex', flexDirection: 'column', marginBottom: '15px' }}>
-      <h2 style={{ paddingBottom:15, fontFamily: 'southern, sans-serif' }}>Submitted Data:</h2>
+      <h2 style={{ paddingBottom:15, fontFamily: 'southern, sans-serif' }}>Kirim Data:</h2>
       <p style={{ margin: '5px 0', fontFamily: 'southern, serif' }}>Nama: {name}</p>
       <p style={{ margin: '5px 0', fontFamily: 'southern, serif' }}>Email: {email}</p>
       <p style={{ margin: '5px 0', fontFamily: 'southern, serif' }}>Komentar: {comment}</p>
     </div>
     <p style={{ paddingTop:12, fontFamily: 'southern, serif', maxWidth: '100%', wordWrap: 'break-word' }}>
-      Average Rating: {averageRating} stars
+    Penilaian Rata-rata: {averageRating} Bintang
     </p>
             <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '15px' }}>
               <button
@@ -91,7 +91,7 @@ export default function ContactForm() {
                 onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#c0c0c0'} // Hover effect
                 onMouseLeave={(e) => e.currentTarget.style.backgroundColor = warnaform.buttonBg} // Revert effect
               >
-                Back
+                Kembali
               </button>
             </div>
           </>
@@ -161,7 +161,7 @@ export default function ContactForm() {
               </div>
               {allRatings.length > 0 && (
           <h3 style={{ paddingTop:12, fontFamily: 'Georgia, serif', maxWidth: '100%', wordWrap: 'break-word' }}>
-            Average Rating: {averageRating} stars
+            Penilaian Rata-rata: {averageRating} Bintang
           </h3>
         )}
             </div>
@@ -181,7 +181,7 @@ export default function ContactForm() {
                 onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#c0c0c0'} // Hover effect
                 onMouseLeave={(e) => e.currentTarget.style.backgroundColor = warnaform.buttonBg} // Revert effect
               >
-                Clear
+                Hapus
               </button>
               <button
                 type="submit"
@@ -197,7 +197,7 @@ export default function ContactForm() {
                 onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#c0c0c0'} // Hover effect
                 onMouseLeave={(e) => e.currentTarget.style.backgroundColor = warnaform.buttonBg} // Revert effect
               >
-                Submit
+                Kirim
               </button>
               
             </div>

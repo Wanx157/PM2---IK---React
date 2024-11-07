@@ -23,12 +23,12 @@ export default function Heroes() {
         {/* Text Section */}
         <div className="w-full px-4">
           <p className="text-lg text-gray-300 text-center mt-4" style={{ fontFamily: 'southern', lineHeight: '2' }}>
-            Hi, Saya adalah mahasiswa Universitas Maseom angkatan 2022 dengan NIM 222505042, memiliki keahlian di bidang
-            desain grafis yang mencakup kemampuan dalam pengkodean dan penggunaan aplikasi editing untuk merancang
-            layout yang menarik. Selama studi, saya telah mengembangkan pemahaman mendalam tentang prinsip-prinsip
-            desain, tipografi, dan penggunaan warna, yang memungkinkan saya menghasilkan karya yang estetis dan
-            komunikatif. Saya juga menjunjung tinggi nilai-nilai kedisiplinan dan ketekunan, yang saya anggap sebagai
-            kunci untuk mencapai hasil maksimal dalam proyek desain maupun dalam pendidikan.
+          Hi, Saya adalah mahasiswa Universitas Maseom angkatan 2022 dengan NIM 222505042, Memiliki keahlian dalam bidang editing
+            video dengan kemampuan menggunakan berbagai perangkat lunak pengeditan seperti Adobe Premiere Pro, Final Cut Pro, dan DaVinci Resolve. 
+            Saya terampil dalam memotong, menyusun, dan menambahkan efek visual serta audio yang mendukung narasi,
+            sehingga menghasilkan video yang menarik dan berkesan. Selama pengalaman saya, saya juga telah mengembangkan pemahaman mendalam tentang ritme, transisi, dan penggunaan
+            warna untuk memperkuat pesan dalam setiap video yang saya buat. Dengan menjunjung tinggi ketelitian dan kreativitas, saya selalu berupaya
+            menghasilkan karya yang memenuhi standar kualitas tinggi dan mencapai tujuan komunikasi yang diinginkan.
           </p>
         </div>
       </div>

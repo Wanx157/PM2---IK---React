@@ -2,7 +2,7 @@
 export const warna = {
     gradient: 'linear-gradient(to right, #750082, #4b00b4, #2900e6)', // Gradien ungu ke biru
     background: '#000', // Warna latar belakang hitam
-    border: '#750082', // Warna border ungu
+    border: '#ffffff', // Warna border ungu
     boxShadow: '0 8px 20px rgba(0, 0, 0, 0.8)', // Bayangan untuk efek kotak
     textColor: '#ffffff' // Warna teks putih
   };
@@ -13,7 +13,7 @@ export const warnaPekerjaan = {
   textColor: '#e0e0e0', // Warna teks
   background: '#000000', // Warna background hitam
   boxShadow: '2px 2px 8px rgba(0, 0, 0, 0.3)',
-  border: '#4b0082', // Warna gradient border
+  border: '#ffffff', // Warna gradient border
 };
 
 
@@ -45,7 +45,7 @@ export const warnaperson = {
   
   // warnahohby.js
 export const warnahobi = {
-    gradient: 'linear-gradient(to right, #750082, #4b00b4, #2900e6)', // Gradien ungu ke biru
+    gradient: 'linear-gradient(to right, #ffffff, #4b00b4, #2900e6)', // Gradien ungu ke biru
     text: '#ffffff', // Warna teks putih
     textShadow: '0 0 3px #750082, 0 0 7px #4b00b4, 0 0 9px #2900e6', // Efek shadow ungu
     containerBg: '#000', // Warna latar belakang hitam
@@ -56,7 +56,7 @@ export const warnahobi = {
   
   // color.tsx
 export const warnaform = {
-  gradient: 'linear-gradient(to right, #750082, #4b00b4, #2900e6)', // Gradien ungu ke biru
+  gradient: 'linear-gradient(to right, #ffffff, #4b00b4, #2900e6)', // Gradien ungu ke biru
   background: '#000', // Warna latar belakang hitam
   border: '#750082', // Warna border ungu
   boxShadow: '0 8px 20px rgba(0, 0, 0, 0.8)', // Bayangan untuk efek kotak

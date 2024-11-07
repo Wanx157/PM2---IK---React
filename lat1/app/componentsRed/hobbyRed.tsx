@@ -10,11 +10,11 @@ import kucingImage from '../image/kucing.jpg';
 
 const hobbiesData = [
   {
-    name: 'Bermain Game',
+    name: 'Mempelajari Bahasa Asing',
     images: [gameImage],
   },
   {
-    name: 'Menyelesaikan List Tugas',
+    name: 'Bermain Game',
     images: [homeworkImage],
   },
   {
@@ -22,7 +22,7 @@ const hobbiesData = [
     images: [olahragaImage],
   },
   {
-    name: 'Pelihara Kucing',
+    name: 'Membaca Buku',
     images: [kucingImage],
   },
 ];
