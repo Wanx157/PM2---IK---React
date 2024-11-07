@@ -1,6 +1,6 @@
 import React from 'react';
 import '../stylish.css';
-import { warna } from '../color';
+import { warnaMerahKuning } from '../color';
 
 interface RiwayatPendidikanProps {
   level: string;
@@ -8,12 +8,12 @@ interface RiwayatPendidikanProps {
   year: string;
 }
 
-export default function RiwayatPendidikan() {
+export default function PendidikanRed() {
   return (
-    <div className="container mx-auto p-2 text-center pt-20" style={{ color: warna.textColor }}>
+    <div className="container mx-auto p-2 text-center pt-20" style={{ color: warnaMerahKuning.textColor }}>
       <h1 className="text-4xl font-bold mb-6 tracking-widest" style={{
-          color: warna.textColor,
-          textShadow: warna.boxShadow,
+          color: warnaMerahKuning.textColor,
+          textShadow: warnaMerahKuning.boxShadow,
           fontFamily: 'Southern, sans-serif',
         }}>
         Riwayat Pendidikan
@@ -32,10 +32,11 @@ function RowRiwayat({ level, namasekolah, year }: RiwayatPendidikanProps) {
       <div
         className="rounded-lg p-4 my-5"
         style={{
-          backgroundColor: warna.background,
-          color: warna.textColor,
-          boxShadow: warna.boxShadow,
-          position: 'relative',
+          backgroundColor: warnaMerahKuning.background,
+          border: warnaMerahKuning.borderGradient,
+          borderRadius: '1rem',
+          boxShadow: warnaMerahKuning.boxShadow,
+          position: 'relative'
         }}
       >
         <div
@@ -46,7 +47,7 @@ function RowRiwayat({ level, namasekolah, year }: RiwayatPendidikanProps) {
             right: '-3px',
             bottom: '-3px',
             borderRadius: 'inherit',
-            background: `linear-gradient(to right, ${warna.border}, #4b00b4, #2900e6)`,
+            background: warnaMerahKuning.borderGradient,
             zIndex: -1,
           }}
         />

@@ -1,0 +1,266 @@
+/*heroes*/
+.untane{
+    border-radius: 50%;
+    margin: 15px auto;
+    display: block;
+    border: solid 5px rgb(98, 5, 218);
+    box-shadow: 0 0 10px rgb(10, 59, 235);
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+   }
+   .gradient-hr {
+    height: 5px;
+  border: none;
+  background: linear-gradient(to right, #6d18b2, #162dfb);
+  width: 100%;
+  box-sizing: border-box;
+  }
+
+/*heroes red*/
+  .umai{
+    border-radius: 50%;
+    margin: 15px auto;
+    display: block;
+    border: solid 5px rgb(201, 78, 78);
+    box-shadow: 0 0 10px rgb(209, 179, 44);
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+   }
+  .gradient-hrRed {
+    height: 5px;
+  border: none;
+  background: linear-gradient(to right, #ff4e50, #f9d423);
+  width: 100%;
+  box-sizing: border-box;
+  }
+
+  /*heroes blue*/
+  .MizuNoKokyu{
+    border-radius: 50%;
+    margin: 15px auto;
+    display: block;
+    border: solid 5px rgb(34, 151, 151);
+    box-shadow: 0 0 10px rgb(86, 141, 175);
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+   }
+  .gradient-hrBlue {
+    height: 5px;
+  border: none;
+  background: linear-gradient(to right, #2a9474, #68a8d0);
+  width: 100%;
+  box-sizing: border-box;
+  }
+
+  /*bg*/
+   body {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), /* Overlay gelap */
+        url('./image/AI.jpg'); /* Gambar latar belakang */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .okgas {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right:2rem;
+  }
+  /*padding*/
+  SkillsSection {
+    padding-left: 2rem;
+  }
+  PersonInfo {
+    padding-right: 2rem;
+  }
+  @media (max-width: 768px) {
+    div {
+      flex-direction: column;
+      align-items: center;
+    }
+    SkillsSection, PersonInfo {
+      padding: 1rem;
+    }
+  }
+
+  /*skill*/
+  .skill-container {
+    margin-left: 20px; /* Adjust the value as needed */
+  }
+
+/* Wrapper for the hobbies */
+.hobbies-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Title styling */
+.hobbies-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Grid container for hobbies */
+.hobbies-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+/* Styling for each hobby box */
+.hobby-box {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Image styling for hobby */
+.hobby-image {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Text styling for hobby name */
+.hobby-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Profile image styling */
+.game {
+  width: 400px; /* Set the width to make it rectangular */
+  height: 250px; /* Set the height accordingly */
+  object-fit: cover;
+  border-radius: 8px; /* Small border radius for rectangle */
+  margin-top: 20px;
+}
+
+
+
+
+  /*riwayatpendidikan*/
+   .education-container {
+    padding: 20px;
+    border-radius: 8px;
+    
+     }
+     .contact-form, .education-container, .education-card, .title {
+      font-family: 'southern';
+  }
+     .title {
+       text-align: center;
+       font-size: 2rem;
+       font-weight: bold;
+       margin-bottom: 30px;
+     }
+
+     .education-grid {
+       display: grid;
+       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+       gap: 20px;
+     }
+
+     @media (max-width: 768px) { /* Sesuaikan breakpoint sesuai kebutuhan */
+       .education-grid {
+         grid-template-columns: 1fr;
+       }
+     }
+     
+     .education-card {
+       background-color: #ddb466;
+       padding: 20px;
+       border: solid 3px rgb(253, 197, 123);
+       border-radius: 3px;
+       box-shadow: 0 4px 6px rgb(255, 219, 101);
+       text-align: center;
+     }
+     
+     .level {
+       font-size: 1.2rem;
+       font-weight: 600;
+       margin-bottom: 10px;
+     }
+     
+     .school-name, .year {
+       font-size: 1rem;
+       
+     }
+     
+     /* Media Query untuk layar ukuran medium */
+     @media (min-width: 768px) {
+       .education-grid {
+         grid-template-columns: repeat(2, 1fr); /* 2 kolom di layar medium */
+       }
+     }
+     
+     /* Media Query untuk layar ukuran besar (desktop) */
+     @media (min-width: 1024px) {
+       .education-grid {
+         grid-template-columns: repeat(3, 1fr); /* 3 kolom di layar desktop */
+       }
+     }
+     
+     /*contact form*/
+     .contact-form {
+      border: 2px solid ;
+      border-image:  1;
+      padding: 20px;
+      border-radius: 15px;
+      max-width: 600px;
+      width: 90%; /* Use a percentage for responsive width */
+      margin: 20px auto;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+    }
+    
+    @media (max-width: 600px) {
+      .contact-form {
+        padding: 10px; /* Reduce padding for mobile */
+      }
+      
+      input, textarea {
+        padding: 8px; /* Adjust input padding */
+        font-size: 14px; /* Slightly smaller font size */
+      }
+      
+      button {
+        width: 100%; /* Make buttons full-width */
+        margin-top: 10px; /* Add spacing between buttons */
+      }
+    }
+    
+    
+    /*tema button*/
+.theme-toggle-btn {
+  position: fixed;
+  top: 20px; /* Jarak dari atas */
+  right: 20px; /* Jarak dari kanan */
+  background-color: #4b0082;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000; /* Agar berada di atas konten lainnya */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.theme-toggle-btn:hover {
+  background-color: #2900e6; /* Warna saat tombol di-hover */
+}

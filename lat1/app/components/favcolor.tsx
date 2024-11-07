@@ -1,38 +1,41 @@
 "use client";
-import {useState} from "react";
+import { useState } from "react";
+import { warnaskill } from '../color';
 
-export default function Favcolor(){
-    const [warna, setwarna] = useState("White");
-    const [bgcolor, setbgcolor] = useState("White")
+const themes = [
+  { background: '#ff0000', name: 'Merah' },
+  { background: '#ffffff', name: 'Putih' },
+  { background: '#808080', name: 'Abu-abu' },
+  { background: '#0000ff', name: 'Biru' },
+  { background: '#FFFF00', name: 'Kuning' }
+];
 
-    return(
-        <div className="container mx-auto p-4 text-center">
-            <h1 className="text-black">Warna Favorit Saya Adalah</h1>
-            <div className="w-24 rounded-md container mx-auto p-1 bg-white">
-            <h1 className={`text-${bgcolor}`}> {warna}</h1>
-            </div>
-            <hr className="m-10" />
-            <p >Ubah state warna ke warna:</p>
-            <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded" onClick={() => {setwarna("Red"); setbgcolor("red-500")}}
-                >
-                Merah
-            </button>
-            <button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded" onClick={() => {setwarna("Yellow"); setbgcolor("yellow-500")}}
-                >
-                Kuning
-            </button>
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={() => {setwarna("Blue"); setbgcolor("blue-500")}}
-                >
-                Biru
-            </button>
-            <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded" onClick={() => {setwarna("Green"); setbgcolor("green-500")}}
-                >
-                Hijau
-            </button>
-            <button className="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded" onClick={() => {setwarna("Purple"); setbgcolor("purple-500")}}
-                >
-                Ungu
-            </button>
-        </div>
-    );
+export default function FavColor() {
+  const [themeIndex, setThemeIndex] = useState(0);
+
+  // Fungsi untuk mengganti tema
+  const toggleTheme = () => {
+    setThemeIndex((prevIndex) => (prevIndex + 1) % themes.length);
+  };
+
+  return (
+    <div
+      className="container mx-auto p-3 text-center"
+      style={{
+        background: themes[themeIndex].background,
+        borderRadius: '20px',
+        border: '3px solid white'
+      }}
+    >
+      <button
+        className="hover:bg-gray-700 text-white py-2 px-1 rounded"
+        style={{ backgroundColor: 'transparent' }}
+        onClick={toggleTheme}
+      >
+        <h1 className="text-black" style={{ fontFamily: 'Southern' }}>
+          {themes[themeIndex].name}
+        </h1>
+      </button>
+    </div>
+  );
 }
