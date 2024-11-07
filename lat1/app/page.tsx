@@ -73,13 +73,13 @@ export default function MyApp() {
                 className="bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600 transition duration-200"
                 onClick={() => goToPage(2)} // Navigasi ke Halaman 2
               >
-                (Dark)
+                (Yellow)
               </button>
               <button
                 className="bg-sky-400 text-white py-2 px-4 rounded hover:bg-sky-500 transition duration-200"
                 onClick={() => goToPage(3)} // Navigasi ke Halaman 3
               >
-                (Blue)
+                (Green)
               </button>
             </div>
           </div>

@@ -41,7 +41,7 @@ function Profile() {
     <img
       src={foto.src}
       alt="Profile Picture"
-      className="w-80 h-80 rounded-full object-cover mt-4" // Adjust styling as needed
+      className="untane w-80 h-80 object-cover" // Memperbesar gambar
     />
   );
 }

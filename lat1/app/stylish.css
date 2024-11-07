@@ -3,8 +3,8 @@
   border-radius: 50%;
   margin: 15px auto;
   display: block;
-  border: solid 5px rgb(98, 5, 218);
-  box-shadow: 0 0 10px rgb(10, 59, 235);
+  border: solid 5px rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgb(255, 255, 255);
   height: 300px;
   width: 300px;
   object-fit: cover;
@@ -13,8 +13,8 @@
   border-radius: 50%;
   margin: 15px auto;
   display: block;
-  border: solid 5px rgb(201, 78, 78);
-  box-shadow: 0 0 10px rgb(209, 179, 44);
+  border: solid 5px rgb(251, 255, 0);
+  box-shadow: 0 0 10px rgb(251, 255, 0);
   height: 300px;
   width: 300px;
   object-fit: cover;
@@ -23,8 +23,8 @@
   border-radius: 50%;
   margin: 15px auto;
   display: block;
-  border: solid 5px rgb(34, 151, 151);
-  box-shadow: 0 0 10px rgb(86, 141, 175);
+  border: solid 5px rgb(9, 155, 40);
+  box-shadow: 0 0 10px rgb(9, 155, 40);
   height: 300px;
   width: 300px;
   object-fit: cover;
@@ -37,13 +37,13 @@
   box-sizing: border-box;
 }
 .gradient-hr {
-  background: linear-gradient(to right, #6d18b2, #162dfb);
+  background: linear-gradient(to right, #ffffff, #ffffff);
 }
 .gradient-hrRed {
-  background: linear-gradient(to right, #ff4e50, #f9d423);
+  background: linear-gradient(to right, #f2ff00, #f2ff00);
 }
 .gradient-hrBlue {
-  background: linear-gradient(to right, #2a9474, #68a8d0);
+  background: linear-gradient(to right, #037c58, #037c58);
 }
 
 /*bg*/

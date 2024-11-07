@@ -8,7 +8,7 @@ export default function Heroes() {
       <div className="text-gray-300 font-bold text-4xl text-center" style={{ fontFamily: 'southern' }}>
         CV ONLINE
       </div>
-      <hr className="my-5 gradient-hr" />
+      <hr className="my-5 gradient-hrRed" />
 
       {/* Profile section */}
       <div className="flex flex-col items-center w-full">
@@ -41,7 +41,7 @@ function Profile() {
     <img
       src={foto.src}
       alt="Profile Picture"
-      className="w-80 h-80 rounded-full object-cover mt-4" // Adjust styling as needed
+      className="umai w-80 h-80 object-cover" // Memperbesar gambar
     />
   );
 }

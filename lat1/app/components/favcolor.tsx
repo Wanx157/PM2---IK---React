@@ -20,11 +20,12 @@ export default function FavColor() {
 
   return (
     <div
-      className="container mx-auto p-3 text-center"
+      className="container mx-auto p-2 text-center"
       style={{
         background: themes[themeIndex].background,
         borderRadius: '20px',
-        border: '3px solid white'
+        border: '2px solid white',
+        width: '600px'
       }}
     >
       <button
@@ -32,7 +33,7 @@ export default function FavColor() {
         style={{ backgroundColor: 'transparent' }}
         onClick={toggleTheme}
       >
-        <h1 className="text-black" style={{ fontFamily: 'Southern' }}>
+        <h1 className="text-black font-bold" style={{ fontFamily: 'Southern' }}>
           {themes[themeIndex].name}
         </h1>
       </button>

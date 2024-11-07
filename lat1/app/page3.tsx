@@ -44,13 +44,13 @@ export default function Page2({ setCurrentPage2 }: Page3Props) {
                 className="bg-red-500 text-white py-2 px-4 rounded hover:bg-red-600 transition duration-200"
                 onClick={() => goToPage(2)} // Navigasi ke Halaman 2
               >
-                (Dark)
+                (Yellow)
               </button>
               <button
                 className="bg-purple-500 text-white py-2 px-4 rounded hover:bg-purple-600 transition duration-200"
                 onClick={() => goToPage(1)} // Kembali ke Halaman 1
               >
-                (Blue)
+                (White)
               </button>
             </div>
           </div>
