@@ -24,8 +24,7 @@ export default function FavColor() {
       style={{
         background: themes[themeIndex].background,
         borderRadius: '20px',
-        border: '2px solid white',
-        width: '600px'
+        border: '3px solid white'
       }}
     >
       <button
@@ -33,7 +32,7 @@ export default function FavColor() {
         style={{ backgroundColor: 'transparent' }}
         onClick={toggleTheme}
       >
-        <h1 className="text-black font-bold" style={{ fontFamily: 'Southern' }}>
+        <h1 className="text-black" style={{ fontFamily: 'Southern' }}>
           {themes[themeIndex].name}
         </h1>
       </button>
